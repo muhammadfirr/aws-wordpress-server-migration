@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup / temporary
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Sensitive keys / credentials
+*.pem
+*.key
+*.env
+*.crt
+
+# WordPress uploads / cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Database dumps / backup
+backups/
+*.sql
+
+# Node / build / temp
+node_modules/
+dist/
+build/
